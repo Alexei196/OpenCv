@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
         RETR_CCOMP,
         CHAIN_APPROX_SIMPLE
     );
-
+    //Init Markers
     Mat markers(edgesImage.size(), CV_32S);
     markers = Scalar::all(0);
 
