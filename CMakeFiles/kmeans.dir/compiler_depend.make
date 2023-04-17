@@ -186,6 +186,7 @@ CMakeFiles/kmeans.dir/kmeans.cpp.o: kmeans.cpp \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h \
   /usr/local/include/opencv4/opencv2/opencv.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
@@ -641,13 +642,13 @@ CMakeFiles/kmeans.dir/kmeans.cpp.o: kmeans.cpp \
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
 /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
@@ -1178,6 +1179,8 @@ kmeans.cpp:
 /usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h:
 
 /usr/include/c++/11/bits/refwrap.h:
 

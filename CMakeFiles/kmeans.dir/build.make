@@ -107,6 +107,8 @@ kmeans: /usr/local/lib/libopencv_features2d.so.4.7.0
 kmeans: /usr/local/lib/libopencv_flann.so.4.7.0
 kmeans: /usr/local/lib/libopencv_imgproc.so.4.7.0
 kmeans: /usr/local/lib/libopencv_core.so.4.7.0
+kmeans: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so
+kmeans: /usr/lib/x86_64-linux-gnu/libpthread.a
 kmeans: CMakeFiles/kmeans.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/Documents/cvTest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable kmeans"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmeans.dir/link.txt --verbose=$(VERBOSE)
