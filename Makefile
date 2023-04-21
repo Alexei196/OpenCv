@@ -129,6 +129,19 @@ kmeans/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmeans.dir/build.make CMakeFiles/kmeans.dir/build
 .PHONY : kmeans/fast
 
+#=============================================================================
+# Target rules for targets named sobel
+
+# Build rule for target.
+sobel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sobel
+.PHONY : sobel
+
+# fast build rule for target.
+sobel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
+.PHONY : sobel/fast
+
 kmeans.o: kmeans.cpp.o
 .PHONY : kmeans.o
 
@@ -153,6 +166,30 @@ kmeans.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmeans.dir/build.make CMakeFiles/kmeans.dir/kmeans.cpp.s
 .PHONY : kmeans.cpp.s
 
+sobel.o: sobel.cpp.o
+.PHONY : sobel.o
+
+# target to build an object file
+sobel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/sobel.cpp.o
+.PHONY : sobel.cpp.o
+
+sobel.i: sobel.cpp.i
+.PHONY : sobel.i
+
+# target to preprocess a source file
+sobel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/sobel.cpp.i
+.PHONY : sobel.cpp.i
+
+sobel.s: sobel.cpp.s
+.PHONY : sobel.s
+
+# target to generate assembly for a file
+sobel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/sobel.cpp.s
+.PHONY : sobel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kmeans"
+	@echo "... sobel"
 	@echo "... kmeans.o"
 	@echo "... kmeans.i"
 	@echo "... kmeans.s"
+	@echo "... sobel.o"
+	@echo "... sobel.i"
+	@echo "... sobel.s"
 .PHONY : help
 
 

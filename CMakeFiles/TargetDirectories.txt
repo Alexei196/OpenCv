@@ -1,3 +1,4 @@
 /home/andrew/Documents/cvTest/CMakeFiles/kmeans.dir
+/home/andrew/Documents/cvTest/CMakeFiles/sobel.dir
 /home/andrew/Documents/cvTest/CMakeFiles/edit_cache.dir
 /home/andrew/Documents/cvTest/CMakeFiles/rebuild_cache.dir

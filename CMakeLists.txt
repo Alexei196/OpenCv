@@ -6,3 +6,8 @@ include_directories( ${OpenCV_INCLUDE_DIRS})
 add_executable( kmeans kmeans.cpp)
 target_link_libraries( kmeans ${OpenCV_LIBS})
 target_link_libraries( kmeans PUBLIC OpenMP::OpenMP_CXX)
+
+project( sobel )
+add_executable( sobel sobel.cpp)
+target_link_libraries( sobel ${OpenCV_LIBS})
+target_link_libraries( sobel PUBLIC OpenMP::OpenMP_CXX)

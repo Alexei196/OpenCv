@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=kmeans
+CMAKE_PROJECT_NAME:STATIC=sobel
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -238,6 +238,15 @@ kmeans_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 kmeans_SOURCE_DIR:STATIC=/home/andrew/Documents/cvTest
+
+//Value Computed by CMake
+sobel_BINARY_DIR:STATIC=/home/andrew/Documents/cvTest
+
+//Value Computed by CMake
+sobel_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+sobel_SOURCE_DIR:STATIC=/home/andrew/Documents/cvTest
 
 
 ########################

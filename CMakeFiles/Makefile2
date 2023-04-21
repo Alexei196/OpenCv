@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/andrew/Documents/cvTest
 
 # The main recursive "all" target.
 all: CMakeFiles/kmeans.dir/all
+all: CMakeFiles/sobel.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/kmeans.dir/clean
+clean: CMakeFiles/sobel.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ kmeans: CMakeFiles/kmeans.dir/rule
 CMakeFiles/kmeans.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmeans.dir/build.make CMakeFiles/kmeans.dir/clean
 .PHONY : CMakeFiles/kmeans.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sobel.dir
+
+# All Build rule for target.
+CMakeFiles/sobel.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrew/Documents/cvTest/CMakeFiles --progress-num=3,4 "Built target sobel"
+.PHONY : CMakeFiles/sobel.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sobel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documents/cvTest/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sobel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/Documents/cvTest/CMakeFiles 0
+.PHONY : CMakeFiles/sobel.dir/rule
+
+# Convenience name for target.
+sobel: CMakeFiles/sobel.dir/rule
+.PHONY : sobel
+
+# clean rule for target.
+CMakeFiles/sobel.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/clean
+.PHONY : CMakeFiles/sobel.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

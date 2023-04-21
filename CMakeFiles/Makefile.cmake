@@ -10,10 +10,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
-  "CMakeFiles/FindOpenMP/OpenMPCheckVersion.c"
-  "CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
-  "CMakeFiles/FindOpenMP/OpenMPTryFlag.c"
-  "CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp"
   "CMakeLists.txt"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
@@ -56,4 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/kmeans.dir/DependInfo.cmake"
+  "CMakeFiles/sobel.dir/DependInfo.cmake"
   )
